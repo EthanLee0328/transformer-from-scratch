@@ -1,0 +1,2 @@
+# Minimal dependency; the prepared local exercises were checked with this version.
+torch==2.9.1
