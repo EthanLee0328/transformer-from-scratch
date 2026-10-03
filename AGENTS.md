@@ -1,6 +1,7 @@
 # Handwritten Transformer learning workspace
 
 - 本仓库只收录自有代码、检查器、整理后的本人学习笔记和实验指标；不复制第三方教程实现、视频、字幕、课件、数据集或模型权重，不同步完整本地资料库。
+- 公开文件和提交说明不得包含第三方课程的名称、链接、章节导航、本地路径或内容；外层资料入口也不得复制到本仓库。
 - 目标是理解并手写完整 Encoder–Decoder Transformer，采用 Post-LN。核心模块不能用 nn.Transformer、MultiheadAttention 或封装的 attention API 替代；可使用 Linear、Embedding、LayerNorm、Dropout 等基础层。
 - student/ 是本人练习区，默认保留 TODO。先请学习者解释、预测和尝试，再给分级提示；未经明确请求，不代写整道题或用参考答案覆盖。
 - 区分 Codex 准备的脚手架、本人独立实现和实验观测。代理运行成功不等于本人掌握；待实现、失败和通过必须如实记录。
